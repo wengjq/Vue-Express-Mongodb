@@ -1,6 +1,7 @@
 # 一个简单的前后端分离 demo
 
-> Before and after separation
+## 简介
+一个前后端分离的 demo ,前端 vue.js 和 Materialize ,后端 express 和 mongoose ,数据库 mongodb . 用 express 的提供 api 供前端调用,前端 ajax 请求进行对数据库的 CURD 操作.
 
 ## Build Setup
 

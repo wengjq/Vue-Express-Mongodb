@@ -3,6 +3,8 @@
 ## 简介
 一个前后端分离的 demo ，前端 vue.js 和 materialize ，后端 express 和 mongoose ，数据库 mongodb 。用 express 的提供 api 供前端调用，前端 ajax 请求进行对数据库的 CURD 操作。
 
+## 效果图
+![demo](./demo/demo.gif)
 ## Build Setup
 
 ``` bash

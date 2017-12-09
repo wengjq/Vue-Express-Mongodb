@@ -1,4 +1,4 @@
-# vue-express-mongodb
+# 一个简单的前后端分离 demo
 
 > Before and after separation
 

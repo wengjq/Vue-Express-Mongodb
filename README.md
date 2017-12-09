@@ -8,16 +8,16 @@
 ![demo](./demo/demo.gif)
 
 ## 关键技术点
-新建一个 models 目录放数据模型，mongoose 的每个数据 model 需要一个 schema 生成,新建 movie.js 文件或者其他的数据模型，用来提供基础数据。如下图：
+新建一个 models 目录放数据模型，mongoose 的每个数据 model 需要一个 schema 生成，新建 movie.js 文件或者其他的数据模型，用来提供基础数据。如下图：
 
 ![note](./demo/note.png)
 
-接着用 mongoose 链接 mongodb ,在 app.js 里添加
+接着用 mongoose 链接 mongodb ，在 app.js 里添加
 
     const mongoose = require('mongoose')
     mongoose.connect('mongodb://localhost:27017/movieList')
 
-链接数据库成功后,可以用 Robomongo 可视化工具或者在 CMD 里输入 mongo 命令查看数据库。
+链接数据库成功后，可以用 Robomongo 可视化工具或者在 CMD 里输入 mongo 命令查看数据库。
 
 数据库如下图：
 

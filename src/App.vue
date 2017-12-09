@@ -26,4 +26,7 @@ export default {
 nav {
   background-color: #009dd7!important;
 }
+.toast-top-right .toast-success {
+  background-color: #009dd7!important;
+}
 </style>

@@ -18,16 +18,16 @@ Vue.prototype.toastr = toastr
 Vue.component(Vodal.name, Vodal)
 
 toastr.options = {
-  "closeButton": true,
+  "closeButton": false,
   "debug": false,
   "newestOnTop": false,
   "progressBar": false,
   "positionClass": "toast-top-right",
   "preventDuplicates": false,
   "onclick": null,
-  "showDuration": "300",
+  "showDuration": "3000",
   "hideDuration": "1000",
-  "timeOut": "3000",
+  "timeOut": "30000",
   "extendedTimeOut": "1000",
   "showEasing": "swing",
   "hideEasing": "linear",

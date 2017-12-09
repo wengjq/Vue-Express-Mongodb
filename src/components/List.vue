@@ -190,7 +190,6 @@ export default {
       this.$http.delete(`/api/movie/${id}`)
         .then(res => {
           this.toastr.success("删除成功.")
-          console.log(res.data)
           this.getMovies()
         })
         .catch(e => console.log(e))
@@ -202,8 +201,6 @@ export default {
   }
 }
 </script>
-
-
 <style lang="css">
 table {
 	table-layout: fixed;

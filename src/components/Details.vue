@@ -23,9 +23,9 @@
           <span  class="movie-genre" v-for="genre of movie.genres">{{genre}}</span>
           评分: {{movie.rating.average}}
         </p>
-        <p class="movie-directors">导演:<a :href="dir.alt" v-for="dir of movie.directors">{{dir.name}}</a></p>
+        <p class="movie-directors">导演:&nbsp;<a :href="dir.alt" v-for="dir of movie.directors">{{dir.name}}</a></p>
         <p class="movie-actors">
-          演员: <a v-for="actor of movie.casts" class="movie-actor" :href="actor.alt">{{actor.name}}</a>
+          演员:&nbsp;<a v-for="actor of movie.casts" class="movie-actor" :href="actor.alt">{{actor.name}}</a>
         </p>
         <p class="movie-summary">{{movie.summary}}</p>
         <a @click="goBack" class="waves-effect waves-light btn"><i class="material-icons left">keyboard_backspace</i>返回</a>
@@ -64,7 +64,7 @@ export default {
                   this.movie = res.data
                   setTimeout(()=>{
                     document.querySelector('.movie-poster').src = this.movie.images.large
-                  },0)
+                  }, 0)
                   this.loading = false
                 }
               })
@@ -80,6 +80,9 @@ export default {
 <style lang="css" scoped>
 a {
   color: #009dd7;
+}
+.spinner-blue, .spinner-blue-only {
+  border-color: #009dd7;
 }
 .btn {
   color: #fff !important;

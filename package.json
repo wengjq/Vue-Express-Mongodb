@@ -10,9 +10,15 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.15.3",
     "body-parser": "^1.18.2",
+    "components": "^0.1.0",
     "express": "^4.16.2",
+    "materialize-css": "^0.100.2",
+    "materialize-js": "^1.0.0",
     "mongoose": "^4.13.6",
+    "toastr": "^2.1.2",
+    "vodal": "^1.0.3",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
